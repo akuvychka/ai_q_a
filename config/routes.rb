@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :posts do
     get :follow, on: :member
     get :unfollow, on: :member
+    get :resolved, on: :member
   end
 
   resources :comments, only: [:create] do

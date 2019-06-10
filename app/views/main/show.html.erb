@@ -1,11 +1,7 @@
 <div class="list">
   <dl>
     <% @posts.each do |post| %>
-        <div class="list-item">
-          <li class="left tal">
-            <%= link_to(post.header, post_path(post)) %>
-          </li>
-        </div>
+      <%= render 'posts/post_item', post: post %>
     <% end %>
   </dl>
 </div>

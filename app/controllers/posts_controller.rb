@@ -51,6 +51,14 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
+  def resolved
+    @post = current_user.posts.find_by(id: params[:id])
+
+    @post.update({:resolved => true})
+
+    redirect_to post_path(@post)
+  end
+
   def new; end
 
   private
