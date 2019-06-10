@@ -1,5 +1,5 @@
 <div class="top tar">
-  <%= link_to(I18n.t('posts.new'), new_post_path) %>
+  <%= button_to(I18n.t('posts.new'), new_post_path,  {method: :get, form_class: 'form', class: 'btn btn-small'}) %>
 </div>
 
 <div class="list">

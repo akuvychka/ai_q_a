@@ -6,7 +6,7 @@
     <% end %>
     <%= comment.rates.sum { |r| r.value ? 1 : -1 } %>
     <% if can_rate %>
-        <%= link_to '-', rate_down_commeny_path(comment) %>
+        <%= link_to '-', rate_down_comment_path(comment) %>
     <% end %>
   </dt>
   <dd>

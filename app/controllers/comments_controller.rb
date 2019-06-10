@@ -11,7 +11,7 @@ class CommentsController < ApplicationController
 
   def rate_up
     comment = Comment.find_by!(id: params[:id])
-    comment.retes.create(user: current_user, value: true)
+    comment.rates.create(user: current_user, value: true)
     redirect_to post_path(comment.post_id)
   end
 
@@ -25,7 +25,7 @@ class CommentsController < ApplicationController
 
   def comment_params
     params
-      .require(:comments)
+      .require(:comment)
       .permit(:post_id, :text)
   end
 end

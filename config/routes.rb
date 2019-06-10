@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     get :unfollow, on: :member
   end
 
-  resources :comment, only: [:create] do
+  resources :comments, only: [:create] do
     get :rate_up, on: :member
     get :rate_down, on: :member
   end
