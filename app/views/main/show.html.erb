@@ -1,0 +1,11 @@
+<div class="list">
+  <dl>
+    <% @posts.each do |post| %>
+        <div class="list-item">
+          <li class="left tal">
+            <%= link_to(post.header, post_path(post)) %>
+          </li>
+        </div>
+    <% end %>
+  </dl>
+</div>

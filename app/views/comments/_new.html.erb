@@ -1,0 +1,13 @@
+<div class="answer">
+  <div class="form">
+    <hr>
+    <%= form_for @post.comments.new do |f| %>
+      <span><%= I18n.t('posts.fields.body') %></span>
+      <br>
+      <%= f.text_area :text, size: "60x12" %>
+      <%= f.hidden_field :post_id, value: @post.id %>
+      <br>
+      <%= f.submit I18n.t('posts.submit') %>
+    <% end %>
+  </div>
+</div>

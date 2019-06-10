@@ -1,0 +1,11 @@
+en:
+  posts:
+    title: Posts list
+    new: Add a new post
+    submit: publish
+    edit: Edit
+    follow: Follow
+    unfollow: Unfollow
+    fields:
+      header: Header
+      body: Body

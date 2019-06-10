@@ -1,0 +1,11 @@
+<%= form_for post do |p| %>
+  <span><%= I18n.t('posts.fields.header') %></span>
+  <br>
+  <%= p.text_field :header, size: "70" %>
+  <br>
+  <span><%= I18n.t('posts.fields.body') %></span>
+  <br>
+  <%= p.text_area :body, size: "40x12" %>
+  <br>
+  <%= p.submit I18n.t('posts.submit') %>
+<% end %>

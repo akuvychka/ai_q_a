@@ -1,0 +1,35 @@
+<div class="top tar">
+  <%= link_to(I18n.t('common.back'), posts_path) %>
+  <br>
+  <% if current_user.id == @post.user_id %>
+    <%= link_to(I18n.t('posts.edit'), edit_post_path(@post)) %>
+  <% end %>
+  <br>
+  <% if current_user.user_posts.where(post: @post).exists? %>
+      <%= link_to(I18n.t('posts.unfollow'), unfollow_post_path(@post)) %>
+  <% else %>
+      <%= link_to(I18n.t('posts.follow'), follow_post_path(@post)) %>
+  <% end %>
+</div>
+
+<div class="post">
+  <div class="details">
+    <h3><%= @post.header %></h3>
+    <hr>
+    <p><%= @post.body %></p>
+    <hr>
+  </div>
+  <div class="comments">
+    <div class="list">
+      <dl>
+        <% @post.comments.preload(:rates).each do |comment| %>
+          <%= render 'comments/show', comment: comment %>
+        <% end %>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<% unless current_user.id == @post.user_id %>
+  <%= render 'comments/new' %>
+<% end %>

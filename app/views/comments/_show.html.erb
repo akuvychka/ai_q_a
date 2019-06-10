@@ -1,0 +1,15 @@
+<li>
+  <dt>
+    <% can_rate = comment.user_id != current_user.id && !comment.rates.find { |rate| rate.user_id == current_user.id } %>
+    <% if can_rate %>
+      <%= link_to '+', rate_up_comment_path(comment) %>
+    <% end %>
+    <%= comment.rates.sum { |r| r.value ? 1 : -1 } %>
+    <% if can_rate %>
+        <%= link_to '-', rate_down_commeny_path(comment) %>
+    <% end %>
+  </dt>
+  <dd>
+    <%= comment.text %>
+  </dd>
+</li>
