@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a03bfb1-730d-47d5-9483-f7d64e5c6bc9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20190610234711_add_field_resolved_to_post.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
-    <list id="1d7861fd-7c38-4786-bc3f-df54e6d26067" name="add resolve for post" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/posts.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/posts.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
-    <list id="bc2219d1-97c1-44da-b0ef-50e14bf77a54" name="added some styles and added post view" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/posts/_post_item.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/QLA" beforeDir="false" afterPath="$PROJECT_DIR$/db/QLA" afterDir="false" />
-    </list>
+    <list id="1d7861fd-7c38-4786-bc3f-df54e6d26067" name="add resolve for post" comment="" />
+    <list id="bc2219d1-97c1-44da-b0ef-50e14bf77a54" name="added some styles and added post view" comment="" />
     <list id="5fca20a6-1e62-4f7d-8e55-279cd8a4fae4" name="first with bugs" comment="" />
     <list id="346437a3-d46f-4b80-8a45-1d61030eb5aa" name="some fixes" comment="" />
     <list id="06e01168-5fee-47aa-9d8d-9631d7e39274" name="style fixes" comment="" />
@@ -36,6 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ai_q_a@Development__QuoraLikeApp.rcov" NAME="Development: QuoraLikeApp Coverage Results" MODIFIED="1560201089520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="QuoraLikeApp" />
     <SUITE FILE_PATH="coverage/quora_like_app@test__QuoraLikeApp.rcov" NAME="test: QuoraLikeApp Coverage Results" MODIFIED="1549486588634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="QuoraLikeApp" />
   </component>
   <component name="FileEditorManager">
@@ -66,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="505">
+              <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -104,13 +92,12 @@
       </list>
     </option>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/db/schema.rb">
-      <ranges>
-        <range start1="12" end1="13" start2="12" end2="13" changelist="9a03bfb1-730d-47d5-9483-f7d64e5c6bc9" />
-        <range start1="30" end1="30" start2="30" end2="31" changelist="1d7861fd-7c38-4786-bc3f-df54e6d26067" />
-      </ranges>
-    </file>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="67" />
@@ -153,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560200707032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560201067487" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -169,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.test: QuoraLikeApp">
+  <component name="RunManager" selected="Rails.Development: QuoraLikeApp">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -319,7 +306,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549486212552</updated>
       <workItem from="1549486216358" duration="437000" />
-      <workItem from="1560200185481" duration="595000" />
+      <workItem from="1560200185481" duration="759000" />
     </task>
     <servers />
   </component>
@@ -335,7 +322,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032000" />
+    <option name="totallyTimeSpent" value="1196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,13 +347,13 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
@@ -415,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="505">
+          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
         </state>
       </provider>
     </entry>
