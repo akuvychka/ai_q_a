@@ -15,7 +15,7 @@ class CommentsController < ApplicationController
     redirect_to post_path(comment.post_id)
   end
 
-  def reate_down
+  def rate_down
     comment = Comment.find_by!(id: params[:id])
     comment.rates.create(user: current_user, value: false)
     redirect_to post_path(comment.post_id)
